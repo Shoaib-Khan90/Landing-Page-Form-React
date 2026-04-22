@@ -7,17 +7,18 @@ import Testimonals from './components/Testimonals'
 import Pricing from './components/Pricing'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
-
+import Body from './components/Body'
 
 function App() {
 
   return (
     <>
     <Navbar/>
-     <Features />
+    <Body />
+     {/* <Features />
      <Testimonals />
      <Pricing />
-     <Contact />
+     <Contact /> */}
     </>
   )
 }

@@ -1,0 +1,145 @@
+
+.main{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 40px;
+    padding: 10px;
+    height: auto;
+}
+
+.body{
+    width: 550px;
+}
+
+.body >h1{
+        margin-top: 30px;
+        color: blue;
+        text-shadow: 2px 2px 2px blanchedalmond;
+        padding: 10px;
+        font-size: 35px;
+     font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.body>h1:hover{
+    color: rgb(0, 255, 102);
+    text-shadow: 2px 2px 2px aquamarine;
+}
+
+.body > h3{
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(149, 84, 5);
+    font-size: 25px;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body button{
+        width: 250px;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+}
+
+.body > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.card1{
+    border: 2px solid white;
+    box-shadow: 3px 2px 3px 3px gray;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card1 > .flex{
+    display: flex;
+}
+
+.card2{
+    border: 1px solid black;
+    width: 250px;
+    position: absolute;
+    top: 60%;
+    height: 300px;
+}
+
+.card2 >.flex1{
+    display: flex;
+}
+
+.card2>.flex1>h2{
+    padding: 10px;
+    margin-top: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.card2 > .flex1 >button{
+        width: 120px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 40px;
+        border-radius: 10px;
+        border: none;
+        color: green;
+}
+
+.card2 > .flex2{
+    display: flex;
+    margin-top: -40px;
+}
+
+.card2 > .flex2 >h2{
+       padding: 10px;
+    margin-top: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.card2 > .flex2 >p{
+    margin-top: 25px;
+    margin-left: -10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card2>.head{
+    margin-top: -40px;
+}
+
+.card2>.head{
+    color: gray;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.line{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+
+
+
