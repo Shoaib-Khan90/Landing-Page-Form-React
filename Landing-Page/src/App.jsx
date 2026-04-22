@@ -6,12 +6,14 @@ import Features from './components/Features'
 import Testimonals from './components/Testimonals'
 import Pricing from './components/Pricing'
 import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 
 function App() {
 
   return (
     <>
+    <Navbar/>
      <Features />
      <Testimonals />
      <Pricing />
