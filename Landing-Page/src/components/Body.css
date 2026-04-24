@@ -260,15 +260,151 @@
 
 .aboutcompany{
     display: flex;
-    border: 1px solid black;
+    border: 2px solid white;
+    border-radius: 10px;
     height: 350px;
     margin-left: 20px;
     padding: 10px;
     margin-top: 200px;
+    background-color: rgba(128, 128, 128, 0.158);
+}
+
+.image1{
+    margin-top: 20px;
+}
+
+.text{
+        margin-left: 50px;
+        margin-top: 30px;
+}
+
+.text>h2{
+        font-size: 30px;
+        font-family: sans-serif;
+}
+
+.text>p{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .User{
     display: flex;
+    justify-content:space-around;
 }
 
+.user>h2{
+        font-size: 35px;
+        margin-top: 15px;
+        font-family: sans-serif;
+}
 
+.user>p{
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+.Works{
+        margin-top: 200px;
+}
+
+.text1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text1>h1{
+    font-size: 40px;
+      font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text1>p{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 51, 0);
+}
+
+.Container{
+    display: flex;
+}
+
+.Accesbility{
+    margin-top: 30px;
+    border: 2px solid white;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.144);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Accesbility>h2{
+    font-family: sans-serif;
+}
+
+.Accesbility>p{
+    font-family: sans-serif;
+}
+
+.Community{
+     margin-top: 30px;
+    border: 2px solid white;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.144);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Community>h2{
+    font-family: sans-serif;
+}
+
+.Community>p{
+    font-family: sans-serif;
+}
+
+.Scalability{
+     margin-top: 30px;
+    border: 2px solid white;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.144);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Scalability>h2{
+    font-family: sans-serif;
+}
+
+.Scalability>p{
+    font-family: sans-serif;
+}
+
+.Gamification{
+     margin-top: 30px;
+    border: 2px solid white;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.144);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Gamification>h2{
+    font-family: sans-serif;
+}
+
+.Gamification>p{
+    font-family: sans-serif;
+}

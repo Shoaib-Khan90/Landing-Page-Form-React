@@ -15,8 +15,8 @@ function App() {
     <>
     <Navbar/>
     <Body />
-     {/* <Features />
-     <Testimonals />
+     <Features />
+     {/* <Testimonals />
      <Pricing />
      <Contact /> */}
     </>

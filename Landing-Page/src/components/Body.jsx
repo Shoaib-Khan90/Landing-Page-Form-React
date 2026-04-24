@@ -110,25 +110,54 @@ const Body = () => {
         <img src="./Images/pilot.png" width="300px" alt="" />
         </div>
         <div className='text'>
-        <h2>About <span>Comapany</span></h2>
+        <h2>About <span style={{color:"green"}}>Comapany</span></h2>
         <p>That company was so good for anywhere side and there product was so good and effective for everyone</p>
         <div className='User'>
         <div className='user'> 
         <h2> 2.7K+ </h2>
-        <p>Users</p>
+        <p style={{marginLeft:"10px"}}>Users</p>
         </div>
         <div className='user'> 
-        <h2> 1.8K+ </h2>
+        <h2 style={{marginLeft:'25px'}}> 1.8K+ </h2>
         <p>Subscribers</p>
         </div>
         <div className='user'> 
-        <h2> 112 </h2>
+        <h2 style={{marginLeft:'35px'}}> 112 </h2>
         <p>Downloads</p>
         </div>
         <div className='user'> 
-        <h2> 4 </h2>
+        <h2 style={{marginLeft:'45px'}}> 4 </h2>
         <p>Products</p>
         </div>
+        </div>
+        </div>
+        </div>
+
+        <div className='Works'>
+        <div className='text1'>
+        <h1>How It <span style={{color:"green"}}> Works </span> Step-by-Step Guide</h1>
+        <p>That was so good for any product work</p>
+        </div>
+        <div className='Container'>
+        <div className='Accesbility'>
+        <img src="./Images/Accessibilty.png" width="60px" alt="" />
+        <h2>Accessibility</h2>
+        <p>Eliminating physical (ramps, wide doors), digital (screen reader support), and communication obstacles.</p>
+        </div>
+        <div className='Community'>
+          <img src="./Images/Community.png" width="60px" alt="" />
+          <h2>Community</h2>
+          <p> Dense social ties and direct, frequent interaction among members.</p>
+        </div>
+        <div className='Scalability'>
+          <img src="./Images/Scalibilty.png" width="60px" alt="" />
+          <h2>Scalability</h2>
+          <p> The ability to grow without slowing down or degrading service quality.</p>
+        </div>
+        <div className='Gamification'>
+        <img src="./Images/Gamification.png" width="60px" alt="" />
+        <h2>Gamification</h2>
+        <p>To make mundane or routine tasks more enjoyable and engaging.</p>
         </div>
         </div>
         </div>
