@@ -408,3 +408,184 @@
 .Gamification>p{
     font-family: sans-serif;
 }
+
+/* =========================
+   Responsive CSS
+   ========================= */
+
+@media (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body>button{
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+
+  .body {
+    width: 90%;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card2,
+  .card4 {
+    position: static;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .card3 {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .aboutcompany {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+
+  .User {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Accesbility,
+  .Community,
+  .Scalability,
+  .Gamification {
+    width: 45%;
+    margin-left: 0;
+  }
+
+  .circle {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .circle > .circle1 {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
+
+/* =========================
+   Mobile Responsive
+   ========================= */
+
+@media (max-width: 768px) {
+  .body > h1 {
+    font-size: 28px;
+  }
+
+  .body > h3 {
+    font-size: 20px;
+  }
+
+  .body button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .head1,
+  .head2,
+  .head3 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .investors {
+    margin-top: 100px;
+    font-size: 18px;
+  }
+
+  .text > h2,
+  .text > p {
+    font-size: 22px;
+  }
+
+  .text1 > h1 {
+    font-size: 30px;
+  }
+
+  .text1 > p {
+    font-size: 22px;
+  }
+
+  .Accesbility,
+  .Community,
+  .Scalability,
+  .Gamification {
+    width: 90%;
+  }
+
+  .User {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .circle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circle > .circle1 {
+    margin-left: 0;
+  }
+}
+
+/* =========================
+   Small Mobile
+   ========================= */
+
+@media (max-width: 480px) {
+  .body > h1 {
+    font-size: 24px;
+  }
+
+  .body > h3 {
+    font-size: 18px;
+  }
+
+  .text1 > h1 {
+    font-size: 24px;
+  }
+
+  .text1 > p {
+    font-size: 18px;
+  }
+
+  .investors {
+    font-size: 16px;
+  }
+}
