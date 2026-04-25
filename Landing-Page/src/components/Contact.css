@@ -1,0 +1,197 @@
+.contact{
+    margin-top: 150px;
+}
+
+.head6{
+    text-align: center;
+}
+
+.head6>h1{
+    font-size: 30px;
+      font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head6>p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head6>input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.212);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.head6>button{
+        width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(27, 231, 27);
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer1{
+    display: flex;
+}
+
+.footer2>h3{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2>p{
+    color: gray;
+    font-family: sans-serif;
+}
+
+.footer2>p:hover{
+    color: black;
+}
+
+.h2{
+    font-size: 20px;
+      font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: coral;
+}
+
+/* =========================
+   Tablet Responsive
+   ========================= */
+@media (max-width: 1024px) {
+  .contact {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .head6 > h1 {
+    font-size: 28px;
+  }
+
+  .head6 > p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .footer1 {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+/* =========================
+   Mobile Responsive
+   ========================= */
+@media (max-width: 768px) {
+  .contact {
+    margin-top: 80px;
+    padding: 0 15px;
+  }
+
+  .head6 {
+    text-align: center;
+  }
+
+  .head6 > h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .head6 > p {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+
+  .head6 > input {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 15px;
+  }
+
+  .head6 > button {
+    width: 100%;
+    max-width: 320px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer2 > h3 {
+    font-size: 18px;
+  }
+
+  .footer2 > p {
+    font-size: 14px;
+  }
+
+  .h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+}
+
+/* =========================
+   Small Mobile
+   ========================= */
+@media (max-width: 480px) {
+  .contact {
+    margin-top: 60px;
+  }
+
+  .head6 > h1 {
+    font-size: 22px;
+  }
+
+  .head6 > p {
+    font-size: 13px;
+  }
+
+  .head6 > input,
+  .head6 > button {
+    max-width: 100%;
+  }
+
+  .h2 {
+    font-size: 16px;
+  }
+}
