@@ -17,26 +17,26 @@ const Testimonals = () => {
        <div className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px", color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>This landing Page Is Aweasom !</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px", color:"purple"}}>@john_doe</p>
+        <h4 style={{color:"green"}}>This landing Page Is Aweasom !</h4>
         </div>
          <div style={{height:"150px"}} className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px" , color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>Modern and visually attractive design that grabs attention instantly.</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px" , color:"purple"}}>@john_doe</p>
+        <h4  style={{color:"green"}}>Modern and visually attractive design that grabs attention instantly.</h4>
         </div>
          <div style={{height:"130px"}} className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px" , color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>Clear and simple messaging that explains the product effectively.</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px" , color:"purple"}}>@john_doe</p>
+        <h4  style={{color:"green"}}>Clear and simple messaging that explains the product effectively.</h4>
         </div>
       </div>
 
@@ -44,26 +44,26 @@ const Testimonals = () => {
        <div style={{height:'120px'}} className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px" , color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>Smooth and user-friendly navigation for a better experience.</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px" , color:"purple"}}>@john_doe</p>
+        <h4  style={{color:"green"}}>Smooth and user-friendly navigation for a better experience.</h4>
         </div>
          <div style={{height:"150px"}} className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px",color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>Fully responsive layout that works perfectly on mobile, tablet, and desktop.</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px",color:"purple"}}>@john_doe</p>
+        <h4  style={{color:"green"}}>Fully responsive layout that works perfectly on mobile, tablet, and desktop.</h4>
         </div>
          <div  style={{height:"130px"}} className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3 style={{marginLeft:"20px" , color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>Strategically placed call-to-action buttons that increase conversions.</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px" , color:"purple"}}>@john_doe</p>
+        <h4  style={{color:"green"}}>Strategically placed call-to-action buttons that increase conversions.</h4>
         </div>
       </div>
 

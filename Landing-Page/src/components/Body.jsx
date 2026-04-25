@@ -19,10 +19,10 @@ const Body = () => {
         <div className='card1'>
         <div className='flex'>
         <img src="./Images/image.avif" width="60px" alt="" />
-        <h3 style={{marginLeft:"20px"}} >John Doe React</h3>
+        <h3  style={{marginLeft:"20px", color:"green"}} >John Doe React</h3>
         </div>
-        <p style={{marginTop:"-20px", marginLeft:"80px"}}>@john_doe</p>
-        <h4>This landing Page Is Aweasom !</h4>
+        <p style={{marginTop:"-20px", marginLeft:"80px", color:"purple"}}>@john_doe</p>
+        <h4 style={{color:"green"}}>This landing Page Is Aweasom !</h4>
         </div>
         <div className='card2'>
             <div className='flex1'>
