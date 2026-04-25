@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 .contact{
     margin-top: 150px;
 }

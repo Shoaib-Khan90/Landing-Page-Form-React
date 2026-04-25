@@ -3,7 +3,9 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    
+    <div  className='contact'>
+      <section id='contact'>
       <div className='head6'>
       <h1>Join Our Daily <span style={{color:"green"}}> Newsletter </span></h1>
       <p>Join Our Daily Newsletter and stay updated with the latest news, exclusive offers, expert tips, and exciting updates delivered straight to your inbox every day.</p>
@@ -47,6 +49,7 @@ const Contact = () => {
     </footer>
 
     <h2 className='h2'>@ 2026 Landing Page Made By <span style={{color:"green"}}> Shoaib </span></h2>
+    </section>
     </div>
   )
 }

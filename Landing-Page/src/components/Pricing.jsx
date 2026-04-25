@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Pricing = () => {
   return (
     <div className='Price'>
+      <section id='pricing'>
       <div className='head5'>
       <h1>Get <span> Unlimited </span> Access</h1>
       <p>Get Unlimited Access to premium features, exclusive content, and powerful tools designed to enhance your experience</p>
@@ -83,7 +84,7 @@ const Pricing = () => {
       </div>
 
       <div style={{marginTop:"150px", marginLeft:"50px", width:"1160px", color:"gray"}} className='line'></div>
-
+    </section>
     </div>
   )
 }

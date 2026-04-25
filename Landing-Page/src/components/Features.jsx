@@ -4,6 +4,7 @@ import "./Features.css"
 const Features = () => {
   return (
     <div className='Main'>
+      <section id='features'>
       <div className='Features'>
       <h1>Many <span style={{color:'green'}}>Great Features</span></h1>
       <div className='Button'>
@@ -78,6 +79,7 @@ const Features = () => {
         <button style={{marginLeft:"20px", backgroundColor:"white", color:"black"}}>View all features</button>
         </div>
       </div>
+      </section>
     </div>
   )
 }

@@ -14,7 +14,8 @@ import MenuItem from "@mui/material/MenuItem";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 
-const pages = ["Features", "Products", "Pricing", "Contact" , "Github"];
+
+const pages = ["Features", "Testimonals", "Pricing", "Contact" , "Github"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Navbar() {
@@ -52,7 +53,7 @@ function Navbar() {
 
   return (
     <AppBar
-      position="static"
+      position="fixed"
       sx={{
         backgroundColor: darkMode ? "#1e1e1e" : "#1976d2",
         transition: "0.4s",

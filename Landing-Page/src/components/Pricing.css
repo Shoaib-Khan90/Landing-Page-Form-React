@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .Price{
     margin-top: 200px;
 }

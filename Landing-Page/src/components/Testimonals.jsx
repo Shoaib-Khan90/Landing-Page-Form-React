@@ -8,6 +8,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 const Testimonals = () => {
   return (
     <div className='Testimonals'>
+      <section id='testimonals'>
       <div className='head3'>
         <h1>Discover Why <span style={{color:"green"}}> People Love </span> This Landing Page</h1>
         <p>Discover why people love this landing page because it combines modern design, clear messaging, and a smooth user experience that instantly captures attention.</p>
@@ -111,6 +112,7 @@ const Testimonals = () => {
       </div>
       </div>
       </div>
+      </section>
     </div>
   )
 }
