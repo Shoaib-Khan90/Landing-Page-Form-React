@@ -153,6 +153,10 @@ html{
    Tablet Responsive
    ========================= */
 @media (max-width: 1024px) {
+  html{
+  scroll-behavior: smooth;
+}
+
   .Main {
     margin-top: 120px;
   }
@@ -215,6 +219,8 @@ html{
    Mobile Responsive
    ========================= */
 @media (max-width: 768px) {
+
+
   .Main {
     margin-top: 80px;
   }
@@ -344,6 +350,7 @@ html{
    Small Mobile
    ========================= */
 @media (max-width: 480px) {
+
   .Features > h1 {
     font-size: 24px;
   }

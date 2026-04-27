@@ -137,8 +137,8 @@ function Navbar() {
             </IconButton>
 
             {/* Avatar */}
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu}>
+            <Tooltip >
+              <IconButton >
                 <Avatar alt="User" src="./Images/image.avif" />
               </IconButton>
             </Tooltip>
