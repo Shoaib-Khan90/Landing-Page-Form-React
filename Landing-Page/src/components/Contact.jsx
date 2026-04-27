@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 
 const Contact = () => {
+  const [email,setEmail] = useState("")
+  const [messege , setMessege] = useState("")
+  
+  const handlebtn =() => {
+    if(email === ""){
+      setMessege("Plz enter your email")
+    }
+    else{
+      setMessege("You have been sucessfully subscribe")
+      setEmail("")
+    }
+    
+  }
   return (
     
     <div  className='contact'>
@@ -9,8 +22,9 @@ const Contact = () => {
       <div className='head6'>
       <h1>Join Our Daily <span style={{color:"green"}}> Newsletter </span></h1>
       <p>Join Our Daily Newsletter and stay updated with the latest news, exclusive offers, expert tips, and exciting updates delivered straight to your inbox every day.</p>
-      <input type="email" placeholder='shoaib123@gmail.com' />
-      <button>Subscribe</button>
+      <input type="email" value={email}  onChange={(e) => setEmail(e.target.value)} type="email" placeholder='shoaib123@gmail.com' />
+      <button onClick={handlebtn}>Subscribe</button>
+      <h3>{messege}</h3>
       </div>
 
      <div style={{marginTop:"150px", marginLeft:"50px", width:"1160px", color:"gray"}} className='line'></div>
